@@ -1,11 +1,12 @@
 # albmej.github.io_v2
-2nd iteration of my personal website
+
+The 2nd iteration of my personal website to practice some frontend using React + JavaScript
+
+Nice web app to view quick changes: https://reactplayground.vercel.app/
 
 ## Install from scratch
 
 WSL2 Installation Guide
-
-
 
 We install the latest LTS (Long Term Support) versions of nvm, node, & npm as of 09/2025:
 - Node.js: v22.19.0 (JavaScript runtime)
@@ -13,7 +14,7 @@ We install the latest LTS (Long Term Support) versions of nvm, node, & npm as of
 - npm: 11.6.0 (Node Package Manager)
 
 The following steps install nvm, node, & npm on WSL2 (All latest versoins):
-1. Install nvm (will): `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash`
+1. Install nvm: `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash`
    1. Check to see if you have the correct version: `nvm -v`
    2. If you already have nvm installed, you'll need to use git to update it from your nvm directory:
       1. Access your nvm directory (mine is in my home directory): `cd ~/.nvm`
