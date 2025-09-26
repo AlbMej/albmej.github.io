@@ -36,6 +36,9 @@ The command `nvm use --lts` only sets the Node.js version for the current termin
 
 To avoid this by using an alias to the latest LTS version: `nvm alias default v22.19.0` 
 
+## Related:
+- https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site 
+
 ## React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.

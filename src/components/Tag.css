@@ -1,0 +1,64 @@
+/* Tag.css - Styles for the Tag component */
+
+.tag {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 14px;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.tag.blue {
+  background-color: rgba(88, 86, 214, 0.2);
+  color: #5856d6;
+}
+
+.tag.green {
+  background-color: rgba(52, 199, 89, 0.2);
+  color: #34c759;
+}
+
+.tag.gray {
+  background-color: #3a3a3c;
+  color: #e0e0e0;
+}
+
+.tag.orange {
+  background-color: rgba(255, 149, 0, 0.2);
+  color: #ff9500;
+}
+
+.tag.teal {
+  background-color: rgba(90, 200, 250, 0.2);
+  color: #5ac8fa;
+}
+
+.tag.lavender {
+  background-color: rgba(181, 126, 220, 0.2);
+  color: #B57EDC;
+}
+
+.tag.violet {
+  background-color: rgba(153, 51, 255, 0.2);
+  color: #9933ff;
+}
+
+.tag.lime-green {
+  background-color: rgba(191, 255, 0, 0.2);
+  color: #bfff00;
+}
+
+.tag.sand-yellow {
+  background-color: rgba(230, 190, 138, 0.2);
+  color: #e6be8a;
+}
+
+.tag.yellow-orange {
+  background-color: rgba(255, 179, 0, 0.2);
+  color: #ffb300;
+}
+
+.tag.light-green {
+  background-color: rgba(144, 238, 144, 0.2);
+  color: #90ee90;
+}
