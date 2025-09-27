@@ -1,17 +1,39 @@
 /* Tag.css - Styles for the Tag component */
 
 .tag {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
   padding: 4px 10px;
   border-radius: 14px;
   font-size: 13px;
   font-weight: 500;
 }
 
-.tag.blue {
-  background-color: rgba(88, 86, 214, 0.2);
-  color: #5856d6;
+.tag-icon {
+  font-size: 14px;
+  line-height: 1;
+  display: flex;
+  align-items: center;
 }
+
+.tag-icon-image {
+  width: 14px;
+  height: 14px;
+  object-fit: contain;
+  border-radius: 2px;
+}
+
+.tag.cyan {
+  background-color: rgba(100, 210, 255, 0.2);
+  color: #64d2ff;
+}
+
+.tag.blue {
+  background-color: rgba(10, 132, 255, 0.2);
+  color: #0a84ff;
+}
+
 
 .tag.green {
   background-color: rgba(52, 199, 89, 0.2);
@@ -28,9 +50,14 @@
   color: #ff9500;
 }
 
-.tag.teal {
+/* .tag.teal {
   background-color: rgba(90, 200, 250, 0.2);
   color: #5ac8fa;
+} */
+
+.tag.teal {
+  background-color: rgba(102, 178, 178, 0.2);
+  color: #66b2b2;
 }
 
 .tag.lavender {
@@ -61,4 +88,53 @@
 .tag.light-green {
   background-color: rgba(144, 238, 144, 0.2);
   color: #90ee90;
+}
+
+.tag.red {
+  background-color: rgba(255, 59, 48, 0.2);
+  color: #ff3b30;
+}
+
+.tag.yellow {
+  background-color: rgba(255, 204, 0, 0.2);
+  color: #ffcc00;
+}
+
+.tag.magenta {
+  background-color: rgba(255, 45, 85, 0.2);
+  color: #ff2d55;
+}
+
+.tag.white {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #ffffff;
+}
+
+/* Company Specific */
+
+.tag.hf {  /* https://huggingface.co/brand */
+  background-color: rgba(255, 165, 0, 0.2);
+  color: #FF9D00;
+}
+
+.tag.uv { /* https://temporal.io/brand */
+  background-color: rgba(68, 76, 231, 0.2);
+  /* space black */
+  /* background-color: rgba(20, 20, 20, 1);  */
+  color: #F8FAFC; 
+}
+
+.tag.numpy {
+  background-color: rgba(52, 152, 219, 0.25);
+  color: #3488e8;
+}
+
+.tag.pandas {
+  background-color: rgba(255, 202, 0, 0.5); /* https://pandas.pydata.org/about/citing.html  */
+  color: #150458;
+}
+
+.tag.pydantic { /* Inspect elemented from https://docs.pydantic.dev/latest/ */
+  background-color: rgb(233, 32, 99, 0.2); /* #e92063 */
+  color: #e0e0e0;
 }

@@ -82,7 +82,7 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
-.tech-stack {
+.timeline-item .tech-stack {
   color: #888;
   font-size: 14px;
   font-weight: 500;

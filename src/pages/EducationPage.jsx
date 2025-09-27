@@ -1,6 +1,6 @@
-import gtLogo from '../assets/gt_favicon.png';
-import rpiLogo from '../assets/rpi_favicon.png';
-import uconnLogo from '../assets/uconn_favicon.png';
+import gtLogo from '../assets/schools/gt_favicon.png';
+import rpiLogo from '../assets/schools/rpi_favicon.png';
+import uconnLogo from '../assets/schools/uconn_favicon.png';
 import './EducationPage.css';
 
 const EducationPage = () => (

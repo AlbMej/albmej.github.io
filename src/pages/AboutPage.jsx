@@ -47,7 +47,7 @@ const AboutPage = () => {
                 </ProfileDetail> */}
                 
                 <ProfileDetail label="Domain">
-                    {userData.domain.map(item => <Tag key={item} text={item} type="teal" />)}
+                    {userData.domain.map(item => <Tag key={item} text={item} type="cyan" />)}
                 </ProfileDetail>
                 
                 <ProfileDetail label="Highest Level Of Study">

@@ -1,9 +1,9 @@
 import React from 'react';
-import twitchLogo from '../assets/twitch_favicon.png';
-import citiLogo from '../assets/citi_favicon.png';
-import telLogo from '../assets/tel_favicon.png';
-import rpiLogo from '../assets/rpi_favicon.png';
-import ibmLogo from '../assets/ibm_favicon.png';
+import twitchLogo from '../assets/companies/twitch_favicon.png';
+import citiLogo from '../assets/companies/citi_favicon.png';
+import telLogo from '../assets/companies/tel_favicon.png';
+import rpiLogo from '../assets/schools/rpi_favicon.png';
+import ibmLogo from '../assets/companies/ibm_favicon.png';
 import './ExperiencePage.css';
 
 const ExperiencePage = () => (
