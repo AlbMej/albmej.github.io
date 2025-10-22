@@ -9,7 +9,7 @@ const LinkedInIcon = () => {
 const ProfileHeader = ({ user }) => (
   <div className="profile-header">
     <div className="avatar-container">
-      <img src="https://albertomejia.com/pictures/Twitter_prof_pic.jpg" alt={user.name} className="avatar" />
+      <img src="https://media.licdn.com/dms/image/v2/D4E35AQFpG_SKn4-mZA/profile-framedphoto-shrink_200_200/B4EZloyTMIGYAY-/0/1758399640586?e=1761807600&v=beta&t=7gqhdPRslofsCCfPum4V0Lap21TMhrw35BW-lIOHUIc" alt={user.name} className="avatar" />
       <span className="avatar-badge">Alberto V2.0</span>
     </div>
     <div className="profile-info">
