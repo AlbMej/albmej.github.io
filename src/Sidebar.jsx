@@ -1,22 +1,14 @@
 import {
   FiHome,       // For HomeIcon
-  FiBook,       // For EducationIcon
   FiBriefcase,  // For ExperienceIcon (was EventsIcon)
-
-  FiCode,     // For ProjectsIcon (was ContentIcon) - could also use FiCode or FiTool, FiFolder
-  FiFolder,
-  FiTool,
-  
-  
+  FiTool,     // For ProjectsIcon (was ContentIcon) - could also use FiCode or FiTool, FiFolder
 } from 'react-icons/fi'; // Using Feather Icons for consistency
-import { PiStudentBold  } from "react-icons/pi";
+import { PiStudentBold  } from "react-icons/pi";  // For EducationIcon
 
 const HomeIcon = () => <FiHome size={24} color="currentColor" />;
 const EducationIcon = () => <PiStudentBold size={24} color="currentColor" />;
 const ExperienceIcon = () => <FiBriefcase size={24} color="currentColor" />;
-const ProjectsIcon = () => <FiFolder size={24} color="currentColor" />;
-const Projects2Icon = () => <FiTool size={24} color="currentColor" />;
-const Projects3Icon = () => <FiCode size={24} color="currentColor" />;
+const ProjectsIcon = () => <FiTool size={24} color="currentColor" />;
 
 
 // The new Sidebar Component
@@ -26,9 +18,7 @@ const Sidebar = ({ activeTab, setActiveTab }) => {
     { icon: <EducationIcon />, text: 'Education' },
     { icon: <ExperienceIcon />, text: 'Experience' },
     { icon: <ProjectsIcon />, text: 'Projects' },
-    { icon: <Projects2Icon />, text: 'Projects' },
-    { icon: <Projects3Icon />, text: 'Projects' },
-    // Add other nav items from the image here
+    // Add other nav items here
   ];
 
   return (
