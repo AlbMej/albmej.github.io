@@ -98,6 +98,21 @@
   margin-bottom: 0;
 }
 
+.timeline-item ul {
+  margin: 8px 0;
+  padding-left: 20px;
+  line-height: 1.5;
+}
+
+.timeline-item ul:last-child {
+  margin-bottom: 0;
+}
+
+.timeline-item li {
+  margin: 4px 0;
+  color: #e0e0e0;
+}
+
 /* Responsive design for smaller screens */
 @media (max-width: 768px) {
   .education-header {

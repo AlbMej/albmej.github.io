@@ -26,8 +26,10 @@ const EducationPage = () => (
             <span className="graduation-date">August 2025</span>
           </div>
         </div>
-        <p>Relevant Coursework: Natural Language Processing, AI Ethics & Society, Knowledge-Based AI, AI for Robotics, Game AI,
-          ML for Trading, Software Development Process, Digital Marketing, Global Entrepreneurship</p>
+        <ul>
+          <li>Relevant Coursework: Natural Language Processing, AI Ethics & Society, Knowledge-Based AI, AI for Robotics, Game AI,
+            ML for Trading, Software Development Process, Digital Marketing, Global Entrepreneurship</li>
+        </ul>
       </div>
       
       <div className="timeline-item">
