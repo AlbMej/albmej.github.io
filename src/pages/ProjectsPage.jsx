@@ -1,5 +1,6 @@
 import React from 'react';
 import Tag from '../components/Tag.jsx';
+import { FiExternalLink } from 'react-icons/fi';
 import './ProjectsPage.css';
 
 // Import tech favicons
@@ -21,6 +22,35 @@ const ProjectsPage = () => (
   <div className="page-card">
     <h1>Projects</h1>
     <div className="projects-timeline">
+      
+      <div className="project-item project-item-private">
+        <div className="project-header">
+          <div className="project-info">
+            <h3 className="project-title">
+              Private Projects Documentation
+              <FiExternalLink className="external-link-icon" />
+            </h3>
+            <p className="project-subtitle">Technical Documentation & Research</p>
+          </div>
+          <div className="project-stats">
+            <span className="project-duration">Protected Access</span>
+          </div>
+        </div>
+        <p className="tech-stack">Jupyter Notebooks, Python files, PDF Reports</p>
+        <p className="project-description">
+          <li>Projects done as part of my Master's degree at Georgia Tech.</li>
+          <li>Includes notebooks, source code, & comprehensive project reports.</li>
+          <li>Note to Recruiters & Hiring Managers: I'd be happy to grant you access to my projects. Contact me so I can whitelist your email.</li>
+        </p>
+        <a 
+          href="https://projects.albertomejia.com" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="private-projects-link"
+        >
+          View Projects
+        </a>
+      </div>
       
       <div className="project-item">
         <div className="project-header">

@@ -18,6 +18,39 @@
   background-color: #222;
 }
 
+.project-item-private {
+  border-left: 3px solid #4ecdc4;
+}
+
+.external-link-icon {
+  display: inline-block;
+  margin-left: 8px;
+  vertical-align: middle;
+  color: #4ecdc4;
+  font-size: 18px;
+}
+
+.private-projects-link {
+  display: inline-block;
+  margin-top: 16px;
+  padding: 10px 20px;
+  background-color: rgba(78, 205, 196, 0.15);
+  color: #4ecdc4;
+  border: 1px solid #4ecdc4;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+  transition: all 0.2s ease;
+}
+
+.private-projects-link:hover {
+  background-color: rgba(78, 205, 196, 0.25);
+  color: #5dd5c7;
+  border-color: #5dd5c7;
+  transform: translateY(-1px);
+}
+
 .project-header {
   display: flex;
   justify-content: space-between;

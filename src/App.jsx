@@ -8,6 +8,7 @@ import AboutPage from './pages/AboutPage.jsx';
 import ExperiencePage from './pages/ExperiencePage.jsx';
 import EducationPage from './pages/EducationPage.jsx';
 import ProjectsPage from './pages/ProjectsPage.jsx';
+// import ExperimentsPage from './pages/ExperimentsPage.jsx';
 
 // Component for the top section of the profile
 
@@ -25,6 +26,8 @@ function App() {
           return <ExperiencePage />;
         case 'Projects':
           return <ProjectsPage />;
+        // case 'Experiments':
+        //   return <ExperimentsPage />;
         default:
           return <AboutPage />;
       }

@@ -1,0 +1,16 @@
+/* ExperimentsPage.css - Styles specific to the Experiments page */
+
+.experiments-timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.experiments-intro {
+  color: #aaa;
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 0;
+  font-style: italic;
+}
+
