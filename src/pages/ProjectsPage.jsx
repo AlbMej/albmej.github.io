@@ -48,7 +48,7 @@ const ProjectsPage = () => (
           rel="noopener noreferrer"
           className="private-projects-link"
         >
-          View Projects
+          View Documentation
         </a>
       </div>
       

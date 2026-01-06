@@ -3,6 +3,7 @@ import {
   FiHome,       // For HomeIcon
   FiBriefcase,  // For ExperienceIcon (was EventsIcon)
   FiTool,     // For ProjectsIcon (was ContentIcon) - could also use FiCode or FiTool, FiFolder
+  FiMail,     // For ContactIcon
 } from 'react-icons/fi'; // Using Feather Icons for consistency
 import { PiStudentBold  } from "react-icons/pi";  // For EducationIcon
 // import { IoFlaskOutline } from "react-icons/io5"; // For ExperimentsIcon
@@ -11,6 +12,7 @@ const HomeIcon = () => <FiHome size={24} color="currentColor" />;
 const EducationIcon = () => <PiStudentBold size={24} color="currentColor" />;
 const ExperienceIcon = () => <FiBriefcase size={24} color="currentColor" />;
 const ProjectsIcon = () => <FiTool size={24} color="currentColor" />;
+const ContactIcon = () => <FiMail size={24} color="currentColor" />;
 // const ExperimentsIcon = () => <IoFlaskOutline size={24} color="currentColor" />;
 
 
@@ -21,6 +23,7 @@ const Sidebar = ({ activeTab, setActiveTab }) => {
     { icon: <EducationIcon />, text: 'Education' },
     { icon: <ExperienceIcon />, text: 'Experience' },
     { icon: <ProjectsIcon />, text: 'Projects' },
+    { icon: <ContactIcon />, text: 'Contact' },
     // { icon: <ExperimentsIcon />, text: 'Experiments' },
     // Add other nav items here
   ];

@@ -1,0 +1,126 @@
+/* ContactPage.css - Styles specific to the Contact page */
+
+.contact-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact-intro {
+  color: #aaa;
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 0 0 32px 0;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form-group label {
+  color: #e0e0e0;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.form-group input,
+.form-group textarea {
+  padding: 12px;
+  background-color: #1a1a1a;
+  border: 1px solid #333;
+  border-radius: 6px;
+  color: #e0e0e0;
+  font-size: 14px;
+  font-family: inherit;
+  transition: border-color 0.2s ease, background-color 0.2s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: #4ecdc4;
+  background-color: #222;
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+  color: #666;
+}
+
+.form-group textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.submit-button {
+  padding: 12px 24px;
+  background-color: #4ecdc4;
+  color: #121212;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+  align-self: flex-start;
+  margin-top: 8px;
+}
+
+.submit-button:hover {
+  background-color: #5dd5c7;
+  transform: translateY(-1px);
+}
+
+.submit-button:active {
+  transform: translateY(0);
+}
+
+.form-status {
+  padding: 12px;
+  border-radius: 6px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.form-status-success {
+  background-color: rgba(78, 205, 196, 0.15);
+  border: 1px solid #4ecdc4;
+  color: #4ecdc4;
+}
+
+.form-status-error {
+  background-color: rgba(255, 59, 48, 0.15);
+  border: 1px solid #ff3b30;
+  color: #ff3b30;
+}
+
+.submit-button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.submit-button:disabled:hover {
+  background-color: #4ecdc4;
+  transform: none;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .contact-container {
+    max-width: 100%;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    font-size: 16px; /* Prevents zoom on iOS */
+  }
+}
+

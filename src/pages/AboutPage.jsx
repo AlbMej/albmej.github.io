@@ -6,7 +6,7 @@ import './AboutPage.css';
 const userData = {
     name: "Alberto Mejia",
     linkedinUrl: "https://www.linkedin.com/in/albmej/", 
-    title: ["Student @ Georgia Institute of Technology"],
+    title: ["Graduate @ Georgia Institute of Technology"],
     bio: ["Changing the world, one person at a time"],
     location: ["New York, New York, United States"],
     pronouns: ["he/him"],
@@ -41,10 +41,6 @@ const AboutPage = () => {
                 <ProfileDetail label="Location">
                     {userData.location.map(item => <Tag key={item} text={item} type="orange" />)}
                 </ProfileDetail>
-                
-                {/* <ProfileDetail label="Preferred Pronouns">
-                    {userData.pronouns.map(item => <Tag key={item} text={item} type="green" />)}
-                </ProfileDetail> */}
                 
                 <ProfileDetail label="Domain">
                     {userData.domain.map(item => <Tag key={item} text={item} type="cyan" />)}
