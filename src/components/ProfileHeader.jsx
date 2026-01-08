@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { FaLinkedin } from "react-icons/fa"; 
+import gradAvatar from '../assets/graduation_walk_otw.png';
 
 const LinkedInIcon = () => {
   return <FaLinkedin size={16} className="linkedin-icon" />;
@@ -16,7 +17,7 @@ const ProfileHeader = ({ user }) => {
     <>
       <div className="profile-header">
         <div className="avatar-container">
-          <img src="https://media.licdn.com/dms/image/v2/D4E35AQFhGpstG99KqA/profile-framedphoto-shrink_400_400/B4EZpfq_Q9HMAc-/0/1762541696448?e=1767769200&v=beta&t=0oAu2kDXXh7uJDCQ5Li1dksT6491f1ptkXzbPXu5duE" alt={user.name} className="avatar" />
+          <img src={gradAvatar} alt={user.name} className="avatar" />
           {/* <span className="avatar-badge">Alberto V2.0</span> */}
         </div>
         <div className="profile-info">
